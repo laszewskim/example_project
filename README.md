@@ -40,11 +40,11 @@ The above functionalities are tested and work according to their roles.
 
 ## Entity Relationship Diagram
 
-[link to diagram in jpg][erd]
+[link to diagram ERD in jpg][erd]
 
 ## Organizational structure diagram
 
-[link to diagram in jpg][osd]
+[link to diagram OSD in jpg][osd]
 
 ## Cpecific functionalities
 
@@ -69,4 +69,4 @@ Dillinger uses a number of open source projects to work properly:
 
  [erd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.jpg>
  
- [osd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.jpg>
+ [osd]: <https://github.com/Michal3456/example_project/blob/main/sprites/Untitled%20Diagram.drawio(1).png>
