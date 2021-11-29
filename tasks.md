@@ -6,3 +6,5 @@ Utworzyć folder sprites. Dodać diagram ERD do folderu oraz podlikować w dokum
 Dodać diagram ORGchart, czyli diagram struktury organizacyjnej do folderu i podlikować.
 ## Zad4
 Dodać layout głównego formularza w aplikacji do sprites oraz podlikować w dokumentacji.
+## Zad5
+Dodać spketch bazy danych do sprites oraz podlikować w dokumentacji.
