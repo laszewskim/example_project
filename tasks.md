@@ -7,4 +7,4 @@ Dodać diagram ORGchart, czyli diagram struktury organizacyjnej do folderu i pod
 ## Zad4
 Dodać layout głównego formularza w aplikacji do sprites oraz podlikować w dokumentacji.
 ## Zad5
-Dodać spketch bazy danych do sprites oraz podlikować w dokumentacji.
+Dodać sketch bazy danych do sprites oraz podlikować w dokumentacji.
