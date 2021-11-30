@@ -61,8 +61,6 @@ A subsection that presents a detailed description of the individual functionalit
 
 ## Technologies, programming languages and others
 
-Dillinger uses a number of open source projects to work properly:
-
 - [PHP]
 - [JS]
 - [CSS/HTML]
