@@ -20,3 +20,6 @@ Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych d
 | string | varchar | 300 |
 | long string | text| 1000 |
 | date| date| none |
+| boolean| boolean| none |
+| point| point| none |
+| multipoint| multipoint| none |
