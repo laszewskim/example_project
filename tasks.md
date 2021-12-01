@@ -13,7 +13,7 @@ Dodanie wireframe podstrony z głównym formularzem aplikacji oraz podlikować w
 ## Zad7
 Zaprogramować formularz z zad4. Utworzyć plik form.html oraz utworzyć i wstawić do folderu main w swoim folderze o nazwie numeru z dziennika..
 ## Zad8
-Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych do pliku sql i umiesić w folderze database. Nie dodając danych do bazy danych.
+Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych do pliku sql i umiesić w folderze database. Nie dodając danych do bazy danych. Dodać Auto Increment do ID.
 | name | type | size |
 | ------ | ------ |------ |
 | number | int | 255 |
