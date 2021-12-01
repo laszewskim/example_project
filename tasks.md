@@ -11,4 +11,4 @@ Dodać sketch bazy danych do sprites oraz podlikować w dokumentacji.
 ## Zad6
 Dodanie wireframe podstrony z głównym formularzem aplikacji oraz podlikować w dokumentacji.
 ## Zad7
-Zaprogramować formularz z zad4. Utworzyć oraz wstawić do folderu main.
+Zaprogramować formularz z zad4. Utworzyć plik form.html oraz utworzyć i wstawić do folderu main w swoim folderze o nazwie numeru z dziennika..
