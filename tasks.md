@@ -16,7 +16,7 @@ Zaprogramować formularz z zad4. Utworzyć plik form.html oraz utworzyć i wstaw
 Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych do pliku sql i umiesić w folderze database. Nie dodając danych do bazy danych.
 | name | type | size |
 | ------ | ------ |------ |
-| number | int | 1000 |
+| number | int | 255 |
 | string | varchar | 300 |
 | long string | text| 1000 |
 | date| date| none |
