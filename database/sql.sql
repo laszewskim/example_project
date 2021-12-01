@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 29 Lis 2021, 08:29
+-- Czas generowania: 01 Gru 2021, 15:15
 -- Wersja serwera: 10.4.19-MariaDB
 -- Wersja PHP: 8.0.7
 
@@ -18,81 +18,88 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Baza danych: `dvwa`
+-- Baza danych: `bd1`
 --
 
 -- --------------------------------------------------------
 
 --
--- Struktura tabeli dla tabeli `guestbook`
+-- Struktura tabeli dla tabeli `rezerwation`
 --
 
-CREATE TABLE `guestbook` (
-  `comment_id` smallint(5) UNSIGNED NOT NULL,
-  `comment` varchar(300) DEFAULT NULL,
-  `name` varchar(100) DEFAULT NULL
+CREATE TABLE `rezerwation` (
+  `IdRezerwation` int(255) NOT NULL,
+  `IdUser` int(255) NOT NULL,
+  `IdRoom` int(255) NOT NULL,
+  `Date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Zrzut danych tabeli `guestbook`
---
-
-INSERT INTO `guestbook` (`comment_id`, `comment`, `name`) VALUES
-(1, 'This is a test comment.', 'test');
 
 -- --------------------------------------------------------
 
 --
--- Struktura tabeli dla tabeli `users`
+-- Struktura tabeli dla tabeli `room`
 --
 
-CREATE TABLE `users` (
-  `user_id` int(6) NOT NULL,
-  `first_name` varchar(15) DEFAULT NULL,
-  `last_name` varchar(15) DEFAULT NULL,
-  `user` varchar(15) DEFAULT NULL,
-  `password` varchar(32) DEFAULT NULL,
-  `avatar` varchar(70) DEFAULT NULL,
-  `last_login` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `failed_login` int(3) DEFAULT NULL
+CREATE TABLE `room` (
+  `IdRoom` int(255) NOT NULL,
+  `Adress` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
 --
--- Zrzut danych tabeli `users`
+-- Struktura tabeli dla tabeli `user`
 --
 
-INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `user`, `password`, `avatar`, `last_login`, `failed_login`) VALUES
-(1, 'admin', 'admin', 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', '/dvwa/hackable/users/admin.jpg', '2021-11-25 13:18:39', 0),
-(2, 'Gordon', 'Brown', 'gordonb', 'e99a18c428cb38d5f260853678922e03', '/dvwa/hackable/users/gordonb.jpg', '2021-11-10 13:31:06', 0),
-(3, 'Hack', 'Me', '1337', '8d3533d75ae2c3966d7e0d4fcc69216b', '/dvwa/hackable/users/1337.jpg', '2021-11-10 13:31:06', 0),
-(4, 'Pablo', 'Picasso', 'pablo', '0d107d09f5bbe40cade3de5c71e9e9b7', '/dvwa/hackable/users/pablo.jpg', '2021-11-10 13:31:06', 0),
-(5, 'Bob', 'Smith', 'smithy', '5f4dcc3b5aa765d61d8327deb882cf99', '/dvwa/hackable/users/smithy.jpg', '2021-11-10 13:31:06', 0);
+CREATE TABLE `user` (
+  `IdUser` int(255) NOT NULL,
+  `FirstName` varchar(300) NOT NULL,
+  `LaseName` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indeksy dla zrzutów tabel
 --
 
 --
--- Indeksy dla tabeli `guestbook`
+-- Indeksy dla tabeli `rezerwation`
 --
-ALTER TABLE `guestbook`
-  ADD PRIMARY KEY (`comment_id`);
+ALTER TABLE `rezerwation`
+  ADD PRIMARY KEY (`IdRezerwation`);
 
 --
--- Indeksy dla tabeli `users`
+-- Indeksy dla tabeli `room`
 --
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`user_id`);
+ALTER TABLE `room`
+  ADD PRIMARY KEY (`IdRoom`);
+
+--
+-- Indeksy dla tabeli `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`IdUser`);
 
 --
 -- AUTO_INCREMENT dla zrzuconych tabel
 --
 
 --
--- AUTO_INCREMENT dla tabeli `guestbook`
+-- AUTO_INCREMENT dla tabeli `rezerwation`
 --
-ALTER TABLE `guestbook`
-  MODIFY `comment_id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `rezerwation`
+  MODIFY `IdRezerwation` int(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT dla tabeli `room`
+--
+ALTER TABLE `room`
+  MODIFY `IdRoom` int(255) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT dla tabeli `user`
+--
+ALTER TABLE `user`
+  MODIFY `IdUser` int(255) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
