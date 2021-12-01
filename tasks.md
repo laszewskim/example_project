@@ -10,3 +10,5 @@ Dodać layout głównego formularza w aplikacji do sprites oraz podlikować w do
 Dodać sketch bazy danych do sprites oraz podlikować w dokumentacji.
 ## Zad6
 Dodanie wireframe podstrony z głównym formularzem aplikacji oraz podlikować w dokumentacji.
+## Zad7
+Zaprogramować formularz z zad4. Utworzyć oraz wstawić do folderu main.
