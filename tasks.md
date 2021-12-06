@@ -25,7 +25,7 @@ Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych d
 | point| point| none |
 | multipoint| multipoint| none |
 ## Zad9
-Dodać stylizacaję CSS do pliku form.html.
+Dodać stylizacaję CSS do pliku form.html - dokładnie jak w layout z zad4.
 ## Zad10
 Utworzyć i zaprogramować wiregrame z zad6 i umieścić w folderze main.
 ## Zad11
