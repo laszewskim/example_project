@@ -27,6 +27,6 @@ Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych d
 ## Zad9
 Dodać stylizacaję CSS do pliku form.html - dokładnie jak w layout z zad4.
 ## Zad10
-Utworzyć i zaprogramować wiregrame z zad6 i umieścić w folderze main.
+Utworzyć i zaprogramować wireframe z zad6 (mega dokładnie) i umieścić w folderze main.
 ## Zad11
 Dodać dane (zgodne z projektem) do bazy danych, min. 10 rekordów i zaimportować baze do folderu database w pliku sqldate.sql
