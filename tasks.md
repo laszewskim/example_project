@@ -24,3 +24,9 @@ Dodać samą strukturę bazy danych z zad5, zaeksportować całą bazę danych d
 | boolean| boolean| none |
 | point| point| none |
 | multipoint| multipoint| none |
+## Zad9
+Dodać stylizacaję CSS do pliku form.html.
+## Zad10
+Utworzyć i zaprogramować wiregrame z zad6 i umieścić w folderze main.
+## Zad11
+Dodać dane (zgodne z projektem) do bazy danych, min. 10 rekordów i zaimportować baze do folderu database w pliku sqldate.sql
